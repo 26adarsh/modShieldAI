@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Do not push massive datasets or binary model weights to GitHub
+data/
+models/**/*.bin
+models/**/*.pth
+models/**/*.onnx
+models/**/*.h5
