@@ -1,12 +1,8 @@
-venv/
-.venv/
-__pycache__/
-*.pyc
-.env
-
-# Do not push massive datasets or binary model weights to GitHub
-data/
-models/**/*.bin
-models/**/*.pth
-models/**/*.onnx
-models/**/*.h5
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+numpy>=2.1.0
+pandas>=2.2.3
+torch>=2.4.0
+transformers>=4.45.0
+python-dotenv>=1.0.1
